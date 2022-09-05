@@ -14,7 +14,7 @@ public class CameraManager : MonoBehaviour
         
         var adjustment = new Vector3(0.0f, 10.0f, 0.0f);
         //+ adjustment‚ª’Ç‰Á
-        GetComponent<Transform>().position = sphere.position;
-        //GetComponent<Transform>().position = sphere.position + adjustment;
+        //GetComponent<Transform>().position = sphere.position;
+        GetComponent<Transform>().position = sphere.position + adjustment;
     }
 }
